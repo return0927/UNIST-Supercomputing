@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2bca867e-ac2b-4459-a05b-412d046edbf8" name="host2" url="http://192.168.0.2">
+        <fileTransfer host="192.168.0.2" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="43bca65e-f48f-4c37-9c2e-8ae263ff10c6" name="kkutuwiki" url="http://2017wiki.kkutu.wiki">
+        <fileTransfer host="2017wiki.kkutu.wiki" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
